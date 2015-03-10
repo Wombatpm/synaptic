@@ -1,13 +1,19 @@
 {
   "name": "synaptic",
-  "version": "0.1.0",
+  "version": "0.1.7",
   "description": "Architecture-free neural network library",
-  "main": "./lib/synaptic",
+  "main": "./src/synaptic",
   "scripts": {
     "test": "mocha test"
   },
   "devDependencies": {
-    "mocha": ">=1.0.0"
+    "browserify": "*",
+    "gulp": "*",
+    "gulp-insert": "*",
+    "gulp-mocha": "*",
+    "gulp-uglify": "*",
+    "mocha": "*",
+    "vinyl-transform": "*"
   },
   "repository": {
     "type": "git",
@@ -28,5 +34,6 @@
   "bugs": {
     "url": "https://github.com/cazala/synaptic/issues"
   },
-  "homepage": "http://synaptic.juancazala.com"
+  "homepage": "http://synaptic.juancazala.com",
+  "engines" : { "node" : "^0.10.0" }
 }
